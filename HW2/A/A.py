@@ -3,7 +3,7 @@ def solution(nums):
         current=0
         for i in range(len(nums)):
             if nums[i-1]==nums[i]:
-                current=current+1
+                current += 1
                 longest_streak=max(current, longest_streak)                        
             else:
                 current=0
