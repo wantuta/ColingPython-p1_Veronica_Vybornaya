@@ -7,7 +7,7 @@ class Planet(SpaceObject):
         super().__init__(name=name)
         self.population = population or []
     def __str__(self):
-        return f"На {self.name } живет {', '.join([animal.name for animal in self.population])}"
+        return f"На {self.name} живет {', '.join([animal.name for animal in self.population])}"
 
     
 class Animal:
