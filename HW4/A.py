@@ -49,8 +49,8 @@ class Dog(Animal):
         self.color = color
         self.height = height
         self.training = 0
-    def amusing_everyone(self):
-        print(f'{self.name} испугал котов')
+    def barking(self):
+        print(f'{self.name} громко гавкает')
     def educating_the_dog(self):
         print(f'{self.name} тренируется')
         self.training += 10
