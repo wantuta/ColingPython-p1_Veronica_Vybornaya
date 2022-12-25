@@ -5,7 +5,7 @@ class MinStack(object):
         initialize your data structure here.
         """
         self.mins = [] 
-        self.data = []
+        self.data = [] #чтобы записывать минимальные значения
         
 
     def push(self, x):
